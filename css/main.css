@@ -20,6 +20,11 @@ body
 
     display: flex;
 
+    color: white;
+    background-image: url("../img/background-1.jpg");
+    background-position: center;
+    background-size: cover;
+
     align-items: center;
     justify-content: center;
 }

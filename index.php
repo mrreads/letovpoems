@@ -5,6 +5,8 @@ $content = fread($handle, filesize($path));
 fclose($handle);
 $poems = explode('__РАЗДЕЛИТЕЛЬ__', $content);
 $random = random_int(0, count($poems)-1);
+
+$background = random_int(1,2);
 ?>
 
 <!DOCTYPE html>
@@ -18,5 +20,15 @@ $random = random_int(0, count($poems)-1);
 </head>
 <body>
     <div class="poem"> <? echo $poems[$random]; ?> </div>
+
+    <script>
+        let random = Math.floor(Math.random() * 3);
+        var listBackgrounds = 
+        ["url('../img/background-1.jpg')",
+         "url('../img/background-2.jpg')",
+         "url('../img/background-3.jpg')"];
+        document.body.style.backgroundImage = listBackgrounds[random];
+
+    </script>
 </body>
 </html>
