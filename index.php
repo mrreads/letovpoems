@@ -1,15 +1,13 @@
 <?php
 $path = __DIR__ . "/files/texts.txt";
 $handle = fopen($path, "r");
-$content = fread($handle, filesize($path));
+$content = fread($handle, filesize($path)); 
 fclose($handle);
 
-$text = preg_replace('/\* \* \*/', '_РАЗБИВКА_', $content);
-$stihi = explode('_РАЗБИВКА_', $text);
+$stihi = explode('__РАЗДЕЛИТЕЛЬ__', $content);
 
-$random = random_int(0, 405);
+$random = random_int(0, count($stihi));
 echo $stihi[$random];
-
 ?>
 
 <!DOCTYPE html>
