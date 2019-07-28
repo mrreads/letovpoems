@@ -10,14 +10,13 @@
 html, body
 {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 body
 {
     font-family: "Oswald", sans-serif;
     font-size: 26px;
-    font-style: italic;
 
     display: flex;
 
@@ -27,16 +26,27 @@ body
 
 .poem
 {
-    margin: 50px 0px;
+    margin: 50px 25px;
 }
+
 .poem p
 {
     text-align: center;
 }
 
-.poem p:nth-child(2)
+.poem p:first-child
 {
     font-size: 28px;
     font-weight: bold;
-    font-style: normal;
+
+    padding-bottom: 10px;
+}
+.poem p:last-child
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-align: right;
 }
