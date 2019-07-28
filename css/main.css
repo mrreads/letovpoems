@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap");
 
 *
 {
@@ -15,7 +15,7 @@ html, body
 
 body
 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     font-size: 26px;
 
     display: flex;
