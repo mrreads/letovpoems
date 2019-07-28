@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    width: 100%;
+    min-height: 100%;
+}
+
+body
+{
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.poem
+{
+    margin: 50px 0px;
+}
+.poem p
+{
+    text-align: center;
+}
+
+.poem p:nth-child(2)
+{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+}
