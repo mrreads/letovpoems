@@ -25,6 +25,7 @@ body
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 
     align-items: center;
     flex-flow: column nowrap;
