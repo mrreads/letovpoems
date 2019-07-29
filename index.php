@@ -19,9 +19,11 @@ $background = random_int(1,2);
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <p class="header"> Случайный стих Егора Летова </p>
+
     <div class="poem"> <? echo $poems[$random]; ?> </div>
 
-    <p class="author"> Александр Попов </p>
+    <p class="footer"> Александр Попов </p>
 
     <script>
         let random = Math.floor(Math.random() * 3);
