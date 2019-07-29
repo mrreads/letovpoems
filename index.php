@@ -19,6 +19,7 @@ $background = random_int(1,2);
     <meta name="discriction" content="Случайный стих из творчества Игоря Фёдоровича Летова, начиная с 1983 по 1993 года. Все стихотворения взяты из сборника стихов «Русское поле экспериментов».">
     <meta name="robots" content="index, nofollow">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
     <h1 class="header"> Случайный стих Егора Летова </h1>
