@@ -1,9 +1,9 @@
 @font-face
 {
-    font-family: Alegreya Sans SC; /* имя шрифта для CSS правил */
+    font-family: Alegreya Sans SC;
 
-    src: local("Alegreya Sans SC"), /* проверяем наличие шрифта в ОС пользователя */
-    url("../fonts/AlegreyaSansSC-Regular.ttf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+    src: local("Alegreya Sans SC"),
+    url("../fonts/AlegreyaSansSC-Regular.ttf");
 }
 
 *
