@@ -21,7 +21,7 @@ $background = random_int(1,2);
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <p class="header"> Случайный стих Егора Летова </p>
+    <h1 class="header"> Случайный стих Егора Летова </h1>
 
     <div class="poem"> <? echo $poems[$random]; ?> </div>
 
