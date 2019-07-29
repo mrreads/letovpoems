@@ -35,7 +35,7 @@ body
 
     align-items: center;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .poem
@@ -84,8 +84,6 @@ body
 {
     font-size: 24px;
 
-    margin-top: auto;
-
     cursor: default;
     transition: all 0.5s;
     text-align: center;
@@ -95,6 +93,7 @@ body
 {
     font-size: 28px;
 
+    margin-bottom: auto;
     padding-top: 7px;
 
     opacity: 0.3;
@@ -102,6 +101,7 @@ body
 
 .footer
 {
+    margin-top: auto;
     padding: 0px 7px;
 
     opacity: 0.1;
