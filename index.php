@@ -21,6 +21,8 @@ $background = random_int(1,2);
 <body>
     <div class="poem"> <? echo $poems[$random]; ?> </div>
 
+    <p class="author"> Александр Попов </p>
+
     <script>
         let random = Math.floor(Math.random() * 3);
         var listBackgrounds = 
@@ -28,7 +30,6 @@ $background = random_int(1,2);
          "url('../img/background-2.jpg')",
          "url('../img/background-3.jpg')"];
         document.body.style.backgroundImage = listBackgrounds[random];
-
     </script>
 </body>
 </html>

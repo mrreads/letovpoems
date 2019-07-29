@@ -22,16 +22,25 @@ body
 
     color: white;
     background-image: url("../img/background-1.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
     align-items: center;
+    flex-flow: column nowrap;
     justify-content: center;
 }
 
 .poem
 {
-    margin: 50px 25px;
+    display: flex;
+
+    margin: 55px 50px;
+
+    align-items: center;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .poem p
@@ -54,4 +63,22 @@ body
     padding-top: 10px;
 
     text-align: right;
+
+    align-self: flex-end;
 }
+
+.author
+{
+    font-size: 24px;
+
+    margin-top: auto;
+    padding-left: 7px;
+
+    text-align: left;
+
+    opacity: 0.2;
+
+    align-self: flex-start;
+}
+
+
