@@ -75,6 +75,8 @@ body
     margin-top: auto;
     padding-left: 7px;
 
+    cursor: default;
+    transition: all 0.5s;
     text-align: left;
 
     opacity: 0.2;
@@ -82,4 +84,8 @@ body
     align-self: flex-start;
 }
 
+.author:hover
+{
+    opacity: 0.6;
+}
 
