@@ -1,12 +1,10 @@
 <?php
-$path = __DIR__ . "/files/texts.txt";
-$handle = fopen($path, "r");
-$content = fread($handle, filesize($path)); 
-fclose($handle);
-$poems = explode('__РАЗДЕЛИТЕЛЬ__', $content);
-$random = random_int(0, count($poems)-1);
-
-$background = random_int(1,2);
+    $path = __DIR__ . "/files/texts.txt";
+    $handle = fopen($path, "r");
+    $content = fread($handle, filesize($path)); 
+    fclose($handle);
+    $poems = explode('__РАЗДЕЛИТЕЛЬ__', $content);
+    $random = random_int(0, count($poems)-1);
 ?>
 
 <!DOCTYPE html>

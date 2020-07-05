@@ -1,146 +1,144 @@
 @font-face
 {
-    font-family: Alegreya Sans SC;
+	font-family: Alegreya Sans SC;
 
-    src: local("Alegreya Sans SC"),
-    url("../fonts/AlegreyaSansSC-Regular.ttf");
+	src: local("Alegreya Sans SC"),
+	url("../fonts/AlegreyaSansSC-Regular.ttf");
 }
 
 *
 {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html, body
 {
-    width: 100%;
-    min-width: 320px;
-    min-height: 100vh;
+	width: 100%;
+	min-width: 320px;
+	min-height: 100vh;
 }
 
 body
 {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-size: 26px;
+	font-family: "Alegreya Sans SC", sans-serif;
+	font-size: 26px;
 
-    display: flex;
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	justify-content: space-between;
 
-    color: white;
-    background-image: url("../img/background-1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-
-    align-items: center;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+	color: white;
+	background-image: url("../img/background-1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 }
 
 .poem
 {
-    display: flex;
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	flex-grow: 1;
+	justify-content: center;
 
-    margin: 55px 50px;
-
-    align-items: center;
-    flex-flow: column nowrap;
-    flex-grow: 1;
-    justify-content: center;
+	margin: 55px 50px;
 }
 
 .poem p
 {
-    text-align: center;
+	text-align: center;
 }
 
 .poem p:first-child
 {
-    font-size: 36px;
-    font-weight: 800;
+	font-size: 36px;
+	font-weight: 800;
 
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 
-    opacity: 0.8;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+	opacity: 0.8;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
 .poem p:last-child
 {
-    font-size: 24px;
-    font-weight: bold;
+	font-size: 24px;
+	font-weight: bold;
 
-    padding-top: 10px;
+	align-self: flex-end;
 
-    text-align: right;
+	padding-top: 10px;
 
-    opacity: 0.8;
+	text-align: right;
 
-    align-self: flex-end;
+	opacity: 0.8;
 }
 
 .header, .footer
 {
-    font-size: 24px;
+	font-size: 24px;
 
-    cursor: default;
-    transition: all 0.5s;
-    text-align: center;
+	cursor: default;
+	transition: all 0.5s;
+	text-align: center;
 }
 
 .header
 {
-    font-size: 28px;
+	font-size: 28px;
 
-    margin-bottom: auto;
-    padding-top: 7px;
+	margin-bottom: auto;
+	padding-top: 7px;
 
-    opacity: 0.3;
+	opacity: 0.3;
 }
 
 .footer
 {
-    margin-top: auto;
-    padding: 0px 7px;
+	align-self: flex-start;
 
-    opacity: 0.1;
+	margin-top: auto;
+	padding: 0px 7px;
 
-    align-self: flex-start;
+	opacity: 0.1;
 }
 
 .header:hover, .footer:hover
 {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 @media screen and (max-width: 768px)
 {
-    .footer
-    {
-        align-self: center;
-    }
+	.footer
+	{
+		align-self: center;
+	}
 }
 @media screen and (max-width: 375px)
 {
-    .header
-    {
-        font-size: 27px;
-    }
-    .poem
-    {
-        margin: 50px 25px;
-    }
+	.header
+	{
+		font-size: 27px;
+	}
+	.poem
+	{
+		margin: 50px 25px;
+	}
 }
 @media screen and (max-width: 320px)
 {
-    .header
-    {
-        font-size: 23px;
-    }
-    .poem
-    {
-        margin: 50px 20px;
-    }
+	.header
+	{
+		font-size: 23px;
+	}
+	.poem
+	{
+		margin: 50px 20px;
+	}
 }
